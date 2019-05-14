@@ -96,3 +96,11 @@ footer i {
 margin-top: 200px;
 }
 }
+
+@media only screen and (max-width: 767px) {
+.nav-item:first-child {
+display: none;
+}
+}
+
+
