@@ -1,0 +1,98 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	margin: 0;
+}
+
+body * {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.hero-section {
+	background-image: url('../img/bg_hero5.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.hero-section h1 {
+	padding:  12px 0 2px 0;
+	position: relative;
+	top:  200px;
+
+}
+
+.hero-section h2 {
+	position: relative;
+	top:  200px;
+
+}
+
+.hero-section img {
+	padding:  10% 0 2px 0;
+	width: 250px;
+	position: relative;
+	top:  200px;
+
+}
+
+
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 3em;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.8em;
+	font-weight: 200;
+}
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+}
+
+p.destacado {
+	font-size: 1.5em;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 200;
+}
+
+.parafo-espaciado {
+	line-height: 2em;
+}
+
+
+.card {
+	border: 0;
+	margin: 5% 0 5% 0;
+}
+
+footer i {
+  padding: 30px 5px 10px 5px;
+  color:  #FFFFFF;
+
+}
+
+.sobre-mi h3 {
+	margin-top: 200px;
+}
+
+.top-line::before {
+	content: '';
+	display: block;
+	margin: 0 auto 50px;
+	border-top: 3px solid tomato;
+	width: 75px;
+}
+
+@media only screen and (max-width: 767px) {
+.m-ajuste {
+margin-top: 200px;
+}
+}
